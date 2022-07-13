@@ -1,0 +1,113 @@
+.font {
+    font-family: 'Tiro Gurmukhi', serif;
+    ;
+}
+
+.timeline {
+
+    margin-top: 30px;
+    box-shadow: 5px 2px 5px #888888;
+    background-color: #fff;
+    height: 70px;
+    color: blue;
+}
+
+.color {
+    background-color: #fff;
+    box-shadow: 2px 2px 3px 2px#888888;
+    width: 550px
+}
+
+.color1 {
+    background-color: #fff;
+    box-shadow: 3px 2px 2px 2px#888888;
+    width: 550px;
+    height: 70px
+}
+
+.font-size {
+    font-size: 20px;
+}
+
+.color2 {
+    background-color: #fff;
+    box-shadow: 15px 7px 15px 15px rgb(247, 226, 226);
+    width: 550px;
+    height: 300px;
+}
+
+.blue-color {
+    color: blue;
+}
+
+.green-color {
+    color: green;
+}
+
+.teal-color {
+    color: teal;
+}
+
+.yellow-color {
+    color: yellow;
+}
+
+.red-color {
+    color: red;
+}
+
+.heig {
+    height: 100px;
+}
+
+.image {
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    left: 200px;
+    top: 80px
+}
+
+.postimage {
+    position: relative;
+}
+
+.textonImg {
+    position: absolute;
+    left: 130px;
+    top: 170px;
+    /* display: none;
+*/
+}
+
+
+
+/* .filter((val) => {
+    if (year == "" && month == "" && date == "") {
+        return val;
+    }
+    else if (val.date.toLowercase().includes(date.toLowercase())) {
+        return val;
+    }
+}
+
+
+) */
+
+/* const DataUpdate = (id) => {
+    let comb = { task_name, date, id }
+    console.log(date)
+    fetch("http://139.59.47.49:4004/api/task", {
+        method: "PUT",
+        id: id,
+        task_name: task_name.task_name,
+        date: date.date,
+        headers: {
+            'Accept': 'application/json',
+            'Content-type': 'application/json'
+        },
+        body: JSON.stringify(comb)
+    }).then((res) => { res.json().then((result) => { console.log(result) }) })
+} */
